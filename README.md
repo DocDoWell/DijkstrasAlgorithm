@@ -1,2 +1,3 @@
-# DijkstrasAlgorithm
-An implementation of Dijkstras Algorithm in Java
+# ShortestPathAlgorithms
+
+1. An implementation of Dijkstras Algorithm in Java with Priority Queue
