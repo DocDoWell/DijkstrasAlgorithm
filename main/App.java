@@ -31,7 +31,7 @@ public class App {
         BellmanFord bellmanFord = makeBellmanFord();
         long startBell = System.currentTimeMillis();
         bellmanFord.run(bellmanFord.getVertexList().get(0));
-        System.out.println(bellmanFord.getShortestPathTo(bellmanFord.getVertexList().get(6)));
+        System.out.println("BellmanFord shortest path: "+bellmanFord.getShortestPathTo(bellmanFord.getVertexList().get(6)));
         long finishBell = System.currentTimeMillis();
         long elapsedBell= finishBell-startBell;
         System.out.println("Bellman Alg took "+ elapsedBell +"ms to complete.");
