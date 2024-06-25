@@ -15,6 +15,10 @@ public class Edge {
         return weight;
     }
 
+    public Vertex getStart() {
+        return start;
+    }
+
     public Vertex getTarget() {
         return target;
     }

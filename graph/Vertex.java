@@ -7,7 +7,7 @@ public class Vertex implements Comparable<Vertex> {
     private String name;
     private List<Edge> adjacencyEdges;
     private double distance;
-    private Vertex previousVertextOnShortestPath;
+    private Vertex previousVertexOnShortestPath;
 
     public Vertex(String name) {
         this.name = name;
@@ -36,11 +36,11 @@ public class Vertex implements Comparable<Vertex> {
     }
 
     public Vertex getPreviousVertextOnShortestPath() {
-        return previousVertextOnShortestPath;
+        return previousVertexOnShortestPath;
     }
 
     public void setPreviousVertextOnShortestPath(Vertex previousVertextOnShortestPath) {
-        this.previousVertextOnShortestPath = previousVertextOnShortestPath;
+        this.previousVertexOnShortestPath = previousVertextOnShortestPath;
     }
 
     @Override
